@@ -3,5 +3,6 @@ Proceso Calculadora
 	Leer a
 	Escribir "Digite el segundo numero a operar "
 	Leer b
-	<-expresion
+	suma<-a+b
+	
 FinProceso
