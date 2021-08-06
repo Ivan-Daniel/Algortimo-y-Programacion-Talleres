@@ -6,6 +6,7 @@ Proceso Nombre
 	Escribir "Pon tu primer apellido"
 	Leer c
 	Escribir "Pon tu segundo apellido"
+	Leer d
 	P<-SubCadena(a,0,0)
 	Ñ<-SubCadena(b,0,0)
 	I<-SubCadena(c,0,0)
