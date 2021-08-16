@@ -5,8 +5,8 @@ Venta dos-->int-->v2
 Venta tres-->int-->v3
 Sueldo base-->su-->su
 Salidas
-Comisiones-->int-->co=float((v1+v2+v3)*0.10)
-Pago-->int-->x=float(su+co)
+Comisiones-->float-->co=((v1+v2+v3)*0.10)
+Pago-->float-->x=(su+co)
 """
 print("Digite las ventas echas: ")
 v1, v2, v3 =map(int, input().split())
