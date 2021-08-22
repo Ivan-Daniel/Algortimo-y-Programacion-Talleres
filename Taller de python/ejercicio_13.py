@@ -12,15 +12,15 @@ Salidas
 i-->int-->Cantidad total de dinero
 """
 inp=input().split()
-a,b,c,d,e,f,g,h=inp
-a=int(a)
-b=int(b)
-c=int(c)
-d=int(d)
+q,w,e,r,t,j,u,p=inp
+q=int(q)
+w=int(w)
 e=int(e)
-f=int(f)
-g=int(g)
-h=int(h)
+r=int(r)
+t=int(t)
+j=int(j)
+u=int(u)
+p=int(p)
 #caja negra
-i=(a*50000)+(b*20000)+(c*10000)+(d*5000)+(e*2000)+(f*1000)+(g*500)+(h*100)
+i=(q*50000)+(w*20000)+(e*10000)+(r*5000)+(t*2000)+(j*1000)+(u*500)+(p*100)
 print("La cantidad total de dinero es "+str(i))
