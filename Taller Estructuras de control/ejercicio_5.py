@@ -1,3 +1,10 @@
+"""
+Entradas
+Sueldo-->float-->sueldo
+departamento 1-->float-->dep1
+departamento 2-->float-->dep2
+departamento 3-->float-->dep3
+"""
 sueldo=float(input("Digite el sueldo: "))
 dep1=float(input("Ventas echas por departamento 1: "))
 dep2=float(input("Ventas echas por departamento 2: ")) 

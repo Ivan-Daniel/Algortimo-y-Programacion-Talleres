@@ -1,3 +1,9 @@
+"""
+Entradas
+Km-->float-->distancia
+Salidas
+Pago a hacer-->float--Zpago
+"""
 distancia=float(input("Distancia recorrida en km: "))
 if distancia<300:
     pago=50_000
