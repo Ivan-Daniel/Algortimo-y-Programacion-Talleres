@@ -67,8 +67,13 @@ def posicion_elemento(elemento):
 def frutas(elemento):
   pass
 #Realizar una funcion que cuente el numero de veces que se repite un elemento  
-def repetir(elemento):
-  pass
+def repetir(lista,elemento):
+  aux=[]
+  for i in lista:
+    aux.append(float(i))
+  for i in aux:
+    p=aux.count(elemento)
+  return p 
   
 if __name__ == "__main__":
   lista=[1,2,3,4,4]
